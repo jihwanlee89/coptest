@@ -20,7 +20,7 @@ public class TestFilter implements Filter{
 	@Override
 	public void init(FilterConfig filterConfig) throws ServletException {
 		
-		logger.info("시작 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ");
+		logger.info("시작!!!~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ");
 		
 		Filter.super.init(filterConfig);
 	}
