@@ -16,4 +16,13 @@ public class HelloWorld {
 		return "helloworld 시간 : " + date.toString(); 
 	}
 	
+	@RequestMapping("/ERRORTEST")
+	public String errorTest() {
+		
+		String[] testArr = {"1","2"};
+		String error = testArr[3];
+		
+		return "에러없음"; 
+	}
+	
 }
